@@ -21,6 +21,8 @@ struct ChoiceTextView: View {
     }
 }
 
-#Preview {
-    ChoiceTextView(choiceText: "Choice Text")
+struct ChoiceTextView_Previews: PreviewProvider {
+    static var previews: some View {
+        ChoiceTextView(choiceText: "Test string")
+    }
 }
