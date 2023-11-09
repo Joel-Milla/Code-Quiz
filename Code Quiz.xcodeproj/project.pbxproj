@@ -85,7 +85,6 @@
 			children = (
 				FBE41E912AF9B539007B48E5 /* Question.swift */,
 				FBE41E952AFAB809007B48E5 /* Game.swift */,
-				FB8D86BA2AFC52C4001DA9F9 /* GameColor.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -97,6 +96,7 @@
 				FBE41E932AF9B64F007B48E5 /* ChoiceTextView.swift */,
 				FB8D86B82AFC4FBA001DA9F9 /* WelcomeView.swift */,
 				FB8D86BC2AFC5493001DA9F9 /* BottomTextView.swift */,
+				FB8D86BA2AFC52C4001DA9F9 /* GameColor.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
