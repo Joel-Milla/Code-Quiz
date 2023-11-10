@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB659F442AFE86BE008F4DED /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB659F432AFE86BE008F4DED /* GameViewModel.swift */; };
 		FB8F253B2AF420E400FEBCA9 /* Code_QuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8F253A2AF420E400FEBCA9 /* Code_QuizApp.swift */; };
 		FB8F253D2AF420E400FEBCA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8F253C2AF420E400FEBCA9 /* ContentView.swift */; };
 		FB8F253F2AF420E800FEBCA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8F253E2AF420E800FEBCA9 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB659F432AFE86BE008F4DED /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		FB8F25372AF420E400FEBCA9 /* Code Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Code Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8F253A2AF420E400FEBCA9 /* Code_QuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code_QuizApp.swift; sourceTree = "<group>"; };
 		FB8F253C2AF420E400FEBCA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB659F422AFE8688008F4DED /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FB659F432AFE86BE008F4DED /* GameViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		FB8F252E2AF420E400FEBCA9 = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +68,9 @@
 			isa = PBXGroup;
 			children = (
 				FB8F253A2AF420E400FEBCA9 /* Code_QuizApp.swift */,
-				FBE41E982AFAB997007B48E5 /* Views */,
 				FBE41E972AFAB91B007B48E5 /* Models */,
+				FBE41E982AFAB997007B48E5 /* Views */,
+				FB659F422AFE8688008F4DED /* ViewModels */,
 				FB8F253E2AF420E800FEBCA9 /* Assets.xcassets */,
 				FB8F25402AF420E800FEBCA9 /* Preview Content */,
 			);
@@ -162,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB659F442AFE86BE008F4DED /* GameViewModel.swift in Sources */,
 				FBE41E922AF9B539007B48E5 /* Question.swift in Sources */,
 				FBE41E962AFAB809007B48E5 /* Game.swift in Sources */,
 				FB8F253D2AF420E400FEBCA9 /* ContentView.swift in Sources */,
