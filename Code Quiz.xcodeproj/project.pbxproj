@@ -76,9 +76,9 @@
 			isa = PBXGroup;
 			children = (
 				FB8F253A2AF420E400FEBCA9 /* Code_QuizApp.swift */,
-				FBE41E972AFAB91B007B48E5 /* Models */,
 				FBE41E982AFAB997007B48E5 /* Views */,
 				FB659F422AFE8688008F4DED /* ViewModels */,
+				FBE41E972AFAB91B007B48E5 /* Models */,
 				FB8F253E2AF420E800FEBCA9 /* Assets.xcassets */,
 				FB8F25402AF420E800FEBCA9 /* Preview Content */,
 			);
@@ -105,10 +105,10 @@
 		FBE41E982AFAB997007B48E5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FB8D86B82AFC4FBA001DA9F9 /* WelcomeView.swift */,
 				FB8F253C2AF420E400FEBCA9 /* GameView.swift */,
 				FB659F452AFE9568008F4DED /* QuestionView.swift */,
 				FBE41E932AF9B64F007B48E5 /* ChoiceTextView.swift */,
-				FB8D86B82AFC4FBA001DA9F9 /* WelcomeView.swift */,
 				FB8D86BC2AFC5493001DA9F9 /* BottomTextView.swift */,
 				FB8D86BA2AFC52C4001DA9F9 /* GameColor.swift */,
 			);
