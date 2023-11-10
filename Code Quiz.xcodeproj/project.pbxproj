@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FB659F442AFE86BE008F4DED /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB659F432AFE86BE008F4DED /* GameViewModel.swift */; };
+		FB659F462AFE9568008F4DED /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB659F452AFE9568008F4DED /* QuestionView.swift */; };
 		FB8D86B92AFC4FBA001DA9F9 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D86B82AFC4FBA001DA9F9 /* WelcomeView.swift */; };
 		FB8D86BB2AFC52C4001DA9F9 /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D86BA2AFC52C4001DA9F9 /* GameColor.swift */; };
 		FB8D86BD2AFC5493001DA9F9 /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D86BC2AFC5493001DA9F9 /* BottomTextView.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		FB659F432AFE86BE008F4DED /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		FB659F452AFE9568008F4DED /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		FB8D86B82AFC4FBA001DA9F9 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		FB8D86BA2AFC52C4001DA9F9 /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
 		FB8D86BC2AFC5493001DA9F9 /* BottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				FB8F253C2AF420E400FEBCA9 /* GameView.swift */,
+				FB659F452AFE9568008F4DED /* QuestionView.swift */,
 				FBE41E932AF9B64F007B48E5 /* ChoiceTextView.swift */,
 				FB8D86B82AFC4FBA001DA9F9 /* WelcomeView.swift */,
 				FB8D86BC2AFC5493001DA9F9 /* BottomTextView.swift */,
@@ -182,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB659F462AFE9568008F4DED /* QuestionView.swift in Sources */,
 				FB659F442AFE86BE008F4DED /* GameViewModel.swift in Sources */,
 				FBE41E922AF9B539007B48E5 /* Question.swift in Sources */,
 				FB8D86B92AFC4FBA001DA9F9 /* WelcomeView.swift in Sources */,
