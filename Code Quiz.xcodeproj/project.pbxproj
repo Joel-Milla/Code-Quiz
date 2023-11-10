@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB46896E2AFEA449005E9437 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB46896D2AFEA449005E9437 /* ScoreView.swift */; };
 		FB659F442AFE86BE008F4DED /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB659F432AFE86BE008F4DED /* GameViewModel.swift */; };
 		FB659F462AFE9568008F4DED /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB659F452AFE9568008F4DED /* QuestionView.swift */; };
 		FB8D86B92AFC4FBA001DA9F9 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D86B82AFC4FBA001DA9F9 /* WelcomeView.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB46896D2AFEA449005E9437 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
 		FB659F432AFE86BE008F4DED /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		FB659F452AFE9568008F4DED /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		FB8D86B82AFC4FBA001DA9F9 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 			children = (
 				FB8D86B82AFC4FBA001DA9F9 /* WelcomeView.swift */,
 				FB8F253C2AF420E400FEBCA9 /* GameView.swift */,
+				FB46896D2AFEA449005E9437 /* ScoreView.swift */,
 				FB659F452AFE9568008F4DED /* QuestionView.swift */,
 				FBE41E932AF9B64F007B48E5 /* ChoiceTextView.swift */,
 				FB8D86BC2AFC5493001DA9F9 /* BottomTextView.swift */,
@@ -192,6 +195,7 @@
 				FBE41E962AFAB809007B48E5 /* Game.swift in Sources */,
 				FB8F253D2AF420E400FEBCA9 /* GameView.swift in Sources */,
 				FB8D86BD2AFC5493001DA9F9 /* BottomTextView.swift in Sources */,
+				FB46896E2AFEA449005E9437 /* ScoreView.swift in Sources */,
 				FB8D86BB2AFC52C4001DA9F9 /* GameColor.swift in Sources */,
 				FBE41E942AF9B64F007B48E5 /* ChoiceTextView.swift in Sources */,
 				FB8F253B2AF420E400FEBCA9 /* Code_QuizApp.swift in Sources */,

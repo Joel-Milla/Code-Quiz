@@ -26,6 +26,10 @@ class GameViewModel: ObservableObject {
             return false
         }
     }
+    
+    var gameIsOver: Bool {
+      game.isOver
+    }
         
     func makeGuess(atIndex index: Int) {
         game.makeGuessForCurrentQuestion(atIndex: index)

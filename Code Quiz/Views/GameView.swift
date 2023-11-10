@@ -12,19 +12,22 @@ struct GameView: View {
     @StateObject var viewModel = GameViewModel()
     
     var body: some View {
-        ZStack {
-            GameColor.main.ignoresSafeArea()
-            VStack {
-                Text(viewModel.questionProgressText)
-                    .font(.callout)
-                    .multilineTextAlignment(.leading)
-                    .padding()
-                QuestionView(question: viewModel.currentQuestion)
+        NavigationStack {
+            ZStack {
+                GameColor.main.ignoresSafeArea()
+                VStack {
+                    Text(viewModel.questionProgressText)
+                        .font(.callout)
+                        .multilineTextAlignment(.leading)
+                        .padding()
+                    QuestionView(question: viewModel.currentQuestion)
+                }
             }
+            .foregroundStyle(.white)
+            .navigationBarHidden(true)
+            .navigationDestination(isPresented: .constant(viewModel.gameIsOver), destination: {ScoreView()})
+            .environmentObject(viewModel)
         }
-        .foregroundStyle(.white)
-        .navigationBarHidden(true)
-        .environmentObject(viewModel)
     }
 }
 
