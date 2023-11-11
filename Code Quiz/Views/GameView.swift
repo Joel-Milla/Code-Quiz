@@ -25,7 +25,7 @@ struct GameView: View {
             }
             .foregroundStyle(.white)
             .navigationBarHidden(true)
-            .navigationDestination(isPresented: .constant(viewModel.gameIsOver), destination: {ScoreView()})
+            .navigationDestination(isPresented: .constant(viewModel.gameIsOver), destination: {ScoreView(viewModel: ScoreViewModel(correctGuesses: viewModel.correctGuesses, incorrectGuesses: viewModel.incorrectGuesses))})
             .environmentObject(viewModel)
         }
     }

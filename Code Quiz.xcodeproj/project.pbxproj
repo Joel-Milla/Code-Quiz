@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FB46896E2AFEA449005E9437 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB46896D2AFEA449005E9437 /* ScoreView.swift */; };
+		FB4689702AFFCA14005E9437 /* ScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB46896F2AFFCA14005E9437 /* ScoreViewModel.swift */; };
 		FB659F442AFE86BE008F4DED /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB659F432AFE86BE008F4DED /* GameViewModel.swift */; };
 		FB659F462AFE9568008F4DED /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB659F452AFE9568008F4DED /* QuestionView.swift */; };
 		FB8D86B92AFC4FBA001DA9F9 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D86B82AFC4FBA001DA9F9 /* WelcomeView.swift */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		FB46896D2AFEA449005E9437 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		FB46896F2AFFCA14005E9437 /* ScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewModel.swift; sourceTree = "<group>"; };
 		FB659F432AFE86BE008F4DED /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		FB659F452AFE9568008F4DED /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		FB8D86B82AFC4FBA001DA9F9 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				FB659F432AFE86BE008F4DED /* GameViewModel.swift */,
+				FB46896F2AFFCA14005E9437 /* ScoreViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				FB659F462AFE9568008F4DED /* QuestionView.swift in Sources */,
 				FB659F442AFE86BE008F4DED /* GameViewModel.swift in Sources */,
 				FBE41E922AF9B539007B48E5 /* Question.swift in Sources */,
+				FB4689702AFFCA14005E9437 /* ScoreViewModel.swift in Sources */,
 				FB8D86B92AFC4FBA001DA9F9 /* WelcomeView.swift in Sources */,
 				FBE41E962AFAB809007B48E5 /* Game.swift in Sources */,
 				FB8F253D2AF420E400FEBCA9 /* GameView.swift in Sources */,
