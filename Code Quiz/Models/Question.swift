@@ -13,102 +13,44 @@ struct Question: Hashable {
     let correctAnswerIndex: Int
     
     static var allQuestions = [
-        Question(questionText: "Who invented the World Wide Web?",
-                 possibleAnswers: [
-                    "Steve Jobs",
-                    "Linus Torvalds",
-                    "Bill Gates",
-                    "Tim Berners-Lee"
-                 ],
-                 correctAnswerIndex: 3),
-        Question(questionText: "What was the first object oriented programming language?",
-                 possibleAnswers: [
-                    "Simula",
-                    "Python",
-                    "Swift",
-                    "C"
-                 ],
+        // Existing questions...
+        Question(questionText: "Primary key in databases ensures:",
+                 possibleAnswers: ["Speed", "Uniqueness", "Size", "Security"],
+                 correctAnswerIndex: 1),
+        Question(questionText: "In computing, API stands for:",
+                 possibleAnswers: ["Application Programming Interface", "Advanced Programming Input", "Application Protocol Interface", "Automated Program Interaction"],
                  correctAnswerIndex: 0),
-        Question(questionText: "What is the primary purpose of a compiler in programming?",
-                 possibleAnswers: [
-                    "Translating code into machine language",
-                    "Debugging code",
-                    "Creating user interfaces",
-                    "Managing databases"
-                 ],
-                 correctAnswerIndex: 0),
-        Question(questionText: "Which algorithm is often considered the basis of modern cryptography?",
-                 possibleAnswers: [
-                    "Bubble Sort",
-                    "RSA Algorithm",
-                    "Quick Sort",
-                    "Binary Search"
-                 ],
+        Question(questionText: "HTML is used for:",
+                 possibleAnswers: ["Styling", "Structure", "Scripting", "Storage"],
                  correctAnswerIndex: 1),
-        Question(questionText: "What does 'HTTP' stand for in a web address?",
-                 possibleAnswers: [
-                    "High Transfer Text Protocol",
-                    "HyperText Transfer Protocol",
-                    "Hyperlink Tracking Protocol",
-                    "Hyper Transfer Protocol"
-                 ],
+        Question(questionText: "Which is a Linux distribution?",
+                 possibleAnswers: ["Windows", "Ubuntu", "MacOS", "iOS"],
                  correctAnswerIndex: 1),
-        Question(questionText: "Which programming language is known for its use in web development?",
-                 possibleAnswers: [
-                    "Java",
-                    "C#",
-                    "Python",
-                    "JavaScript"
-                 ],
-                 correctAnswerIndex: 3),
-        Question(questionText: "What is 'Big O Notation' used for?",
-                 possibleAnswers: [
-                    "Error handling in software",
-                    "Estimating algorithm efficiency",
-                    "Measuring software quality",
-                    "Data encryption"
-                 ],
+        Question(questionText: "Python is a:",
+                 possibleAnswers: ["Snake", "Language", "Protocol", "Database"],
                  correctAnswerIndex: 1),
-        Question(questionText: "Who is known as the father of modern computer science?",
-                 possibleAnswers: [
-                    "Charles Babbage",
-                    "Alan Turing",
-                    "John von Neumann",
-                    "Ada Lovelace"
-                 ],
-                 correctAnswerIndex: 1),
-        Question(questionText: "Which of these is a key feature of 'Object-Oriented Programming'?",
-                 possibleAnswers: [
-                    "Inheritance",
-                    "Recursion",
-                    "Typing speed",
-                    "HTTP requests"
-                 ],
-                 correctAnswerIndex: 0),
-        Question(questionText: "What is an example of a 'NoSQL' database?",
-                 possibleAnswers: [
-                    "MySQL",
-                    "Oracle",
-                    "MongoDB",
-                    "PostgreSQL"
-                 ],
+        Question(questionText: "Who founded Microsoft?",
+                 possibleAnswers: ["Jobs", "Bezos", "Gates", "Musk"],
                  correctAnswerIndex: 2),
-        Question(questionText: "Which company developed the Java programming language?",
-                 possibleAnswers: [
-                    "Microsoft",
-                    "Apple",
-                    "Sun Microsystems",
-                    "IBM"
-                 ],
-                 correctAnswerIndex: 2),
-        Question(questionText: "What is the term for an error in a program that prevents it from running as expected?",
-                 possibleAnswers: [
-                    "Bug",
-                    "Crash",
-                    "Syntax",
-                    "Loop"
-                 ],
-                 correctAnswerIndex: 0)
+        Question(questionText: "Cloud computing relies on:",
+                 possibleAnswers: ["Local Storage", "Remote Servers", "USB Drives", "DVDs"],
+                 correctAnswerIndex: 1),
+        Question(questionText: "GPU is used for:",
+                 possibleAnswers: ["Processing", "Graphics", "Storage", "Networking"],
+                 correctAnswerIndex: 1),
+        Question(questionText: "SQL is for:",
+                 possibleAnswers: ["Styling", "Querying", "Scripting", "Encoding"],
+                 correctAnswerIndex: 1),
+        Question(questionText: "The brain of a computer is the:",
+                 possibleAnswers: ["CPU", "GPU", "RAM", "SSD"],
+                 correctAnswerIndex: 0),
+        Question(questionText: "CSS is used for:",
+                 possibleAnswers: ["Structure", "Styling", "Scripting", "Saving"],
+                 correctAnswerIndex: 1),
+        Question(questionText: "Which is not an operating system?",
+                 possibleAnswers: ["Linux", "Java", "Windows", "MacOS"],
+                 correctAnswerIndex: 1)
     ]
+
 
 }
